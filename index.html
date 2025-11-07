@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Doc</title>
+        <title>CareerLink</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,9 +56,7 @@
             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./CareerLink.png" class="d-block w-100 h-100" alt="...">
+          <div class="carousel-inner"> <div class="carousel-item active"> <img src="./CareerLink.png" class="d-block w-100 h-100" alt="...">
             </div>
             <div class="carousel-item">
               <img src="./Carousal2.png" class="d-block w-100 h-100" alt="...">
@@ -79,32 +77,33 @@
         </div>
       
       <!--FORM-->
+
       <div class="mycustomcontainer">
       <div class="container">
-      <form class="row g-3">
+      <form class="row g-3" id="myform">
         <div class="db">
-          <label for="validationDefault01" class="form-label">Username</label>
+          <label for="username" class="form-label">Username</label>
           <input
             type="text"
             class="form-control"
-            id="validationDefault01"
+            id="username"
             value=" "
             required
           />
         </div>
         <div class="db0">
-          <label for="validationDefault02" class="form-label">Email</label>
+          <label for="mail" class="form-label">Email</label>
           <input
             type="email"
             class="form-control"
-            id="validationDefault02"
+            id="mail"
             value=" "
             required
           />
         </div>
         <div class="">
-          <label for="validationDefault04" class="form-label">Profession</label>
-          <select class="form-select" id="validationDefault04" required>
+          <label for="prof" class="form-label">Profession</label>
+          <select class="form-select" id="prof" required>
             <option selected disabled value="">Select</option>
             <option>AI Engineer</option>
             <option>Student</option>
@@ -116,26 +115,26 @@
         </div>
 
         <div class="db2">
-          <label for="validationDefault03" class="form-label"
+          <label for="details" class="form-label"
             >Other Details</label
           >
           <input
             type="text"
             class="form-control"
-            id="validationDefault03"
+            id="details"
             required
           />
         </div>
-        <div class="col-md-3">
-          <label for="validationDefault05" class="form-label">Gender</label>
+        <div class="col-md-4 offset-md-4">
+          <label for="gender" class="form-label">Gender</label>
           <input
             type="text"
             class="form-control"
-            id="validationDefault05"
+            id="gender"
             required
           />
         </div>
-        <div class="col-12">
+        <div class="col-md-4 offset-md-4">
           <div class="form-check">
             <input
               class="form-check-input"
@@ -154,22 +153,20 @@
         </div>
       </form>
     </div>
-
         </div>
 
 
-
-       
         <!-- TABLE -->
 
         <div class="mycustomcontainer">
-        <table class="table table-striped container">
+        <table class="table table-striped container" id="mytable">
           <thead class="table-dark">
             <tr>
               <th scope="col">#</th>
               <th scope="col">Name</th>
               <th scope="col">Profession</th>
               <th scope="col">Details</th>
+              <th scope="col">Connect</th>
             </tr>
           </thead>
           <tbody>
@@ -178,60 +175,70 @@
               <td>Aryan Kumar</td>
               <td>Student</td>
               <td>LIT2025016</td>
+              <td><a href="#"><img src="./connect.png" alt="Connect" style="height: 25px"></a></td>
             </tr>
             <tr>
               <th scope="row">2</th>
               <td>Virottam Dutt Raturi</td>
               <td>Student</td>
               <td>LIT2025017</td>
+              <td><a href="#"><img src="./connect.png" alt="Connect" style="height: 25px"></a></td>
             </tr>
             <tr>
               <th scope="row">3</th>
               <td>Divyansh Bhargav</td>
               <td>Student</td>
               <td>LIT2025023</td>
+              <td><a href="#"><img src="./connect.png" alt="Connect" style="height: 25px"></a></td>
             </tr>
             <tr>
               <th scope="row">4</th>
               <td>Akash Kumar</td>
               <td>Student</td>
               <td>LIT2025012</td>
+              <td><a href="#"><img src="./connect.png" alt="Connect" style="height: 25px"></a></td>
             </tr>
             <tr>
               <th scope="row">5</th>
               <td>Atharva Chavan</td>
               <td>Student</td>
               <td>LIT2025014</td>
+              <td><a href="#"><img src="./connect.png" alt="Connect" style="height: 25px"></a></td>
             </tr>
             <tr>
               <th scope="row">6</th>
               <td>Vishnu</td>
               <td>Student</td>
               <td>LIT2025037</td>
+              <td><a href="#"><img src="./connect.png" alt="Connect" style="height: 25px"></a></td>
             </tr>
             <tr>
               <th scope="row">7</th>
               <td>Lakshya Kumar</td>
               <td>Student</td>
               <td>LIT2025033</td>
+              <td><a href="#"><img src="./connect.png" alt="Connect" style="height: 25px"></a></td>
             </tr>
             <tr>
               <th scope="row">8</th>
               <td>Pradeep Kumar</td>
               <td>Student</td>
               <td>LCS2025006</td>
+              <td><a href="#"><img src="./connect.png" alt="Connect" style="height: 25px"></a></td>
             </tr>
             <tr>
               <th scope="row">9</th>
               <td>Shreyam</td>
               <td>Student</td>
               <td>LIT2025020</td>
+              <td><a href="#"><img src="./connect.png" alt="Connect" style="height: 25px"></a></td>
             </tr>
             <tr>
               <th scope="row">10</th>
               <td>Pratyush</td>
               <td>Student</td>
               <td>LCS2025038</td>
+              <td><a href="#"><img src="./connect.png" alt="Connect" style="height: 25px"></a></td>
             </tr>
           </tbody>
         </table>
