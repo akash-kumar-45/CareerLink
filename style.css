@@ -36,3 +36,12 @@
   font-weight: 500;
   font-style: normal;
 }
+
+.mycustomcontainer{
+    text-align: center;
+    border: solid #e7e7e7 1px;
+    border-radius: 2rem;
+    background-color: #f3f3f3;
+    margin: 4rem 10%;
+    width: 80%;
+}
