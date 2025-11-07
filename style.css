@@ -1,3 +1,4 @@
+
 :root{
     --color-bg: #FAEBD7;
     --color-pri: blue;
@@ -44,4 +45,13 @@
     background-color: #f3f3f3;
     margin: 4rem 10%;
     width: 80%;
+}
+.db0{
+    width: 100%;
+}
+.db{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
 }
