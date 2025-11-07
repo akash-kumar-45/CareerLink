@@ -1,3 +1,9 @@
-:root{
-
+.db{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px; 
+}
+.db0{
+    width: 100%;
 }
