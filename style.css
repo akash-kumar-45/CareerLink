@@ -1,9 +1,57 @@
+
+:root{
+    --color-bg: #FAEBD7;
+    --color-pri: blue;
+    --color-hover: black;
+    --color-sec: rgb(54, 54, 54);
+}
+
+.sofia-sans-condensed{
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.noto-sans{
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.sofia-sans {
+  font-family: "Sofia Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.mycustomcontainer{
+    text-align: center;
+    border: solid #e7e7e7 1px;
+    border-radius: 2rem;
+    background-color: #f3f3f3;
+    margin: 4rem 10%;
+    width: 80%;
+}
+.db0{
+    width: 100%;
+}
 .db{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 15px; 
-}
-.db0{
-    width: 100%;
+    gap: 15px;
 }

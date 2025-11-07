@@ -1,28 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Doc</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      src = "script.js";
-    </script>
-    <div class="container">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Doc</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      
+      <!--FORM-->
+      
+      <div class="container">
       <form class="row g-3">
         <div class="db">
           <label for="validationDefault01" class="form-label">Username</label>
@@ -96,5 +89,117 @@
         </div>
       </form>
     </div>
-  </body>
+
+
+        <!--CAROUSEL-->
+        
+        <div class="mycustomcontainer">
+        <div id="myCarousel" class="carousel slide container">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./CareerLink.png" class="d-block w-100 h-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./Carousal2.png" class="d-block w-100 h-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./Carousal3.png" class="d-block w-100 h-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        </div>
+
+        <!-- TABLE -->
+
+        <div class="mycustomcontainer">
+        <table class="table table-striped container">
+          <thead class="table-dark">
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Name</th>
+              <th scope="col">Profession</th>
+              <th scope="col">Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Aryan Kumar</td>
+              <td>Student</td>
+              <td>LIT2025016</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Virottam Dutt Raturi</td>
+              <td>Student</td>
+              <td>LIT2025017</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Divyansh Bhargav</td>
+              <td>Student</td>
+              <td>LIT2025023</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Akash Kumar</td>
+              <td>Student</td>
+              <td>LIT2025012</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>Atharva Chavan</td>
+              <td>Student</td>
+              <td>LIT2025014</td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>Vishnu</td>
+              <td>Student</td>
+              <td>LIT2025037</td>
+            </tr>
+            <tr>
+              <th scope="row">7</th>
+              <td>Lakshya Kumar</td>
+              <td>Student</td>
+              <td>LIT2025033</td>
+            </tr>
+            <tr>
+              <th scope="row">8</th>
+              <td>Pradeep Kumar</td>
+              <td>Student</td>
+              <td>LCS2025006</td>
+            </tr>
+            <tr>
+              <th scope="row">9</th>
+              <td>Shreyam</td>
+              <td>Student</td>
+              <td>LIT2025020</td>
+            </tr>
+            <tr>
+              <th scope="row">10</th>
+              <td>Pratyush</td>
+              <td>Student</td>
+              <td>LCS2025038</td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
 </html>
