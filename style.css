@@ -78,7 +78,7 @@
   left: 50%;
   width: 60px;
   height: 2px;
-  background: green;
+  background: blue;
   bottom: -25px;
   margin-left: -30px;
 }
@@ -106,7 +106,7 @@
   transition: all 0.3s ease 0s ;
 }
 .faq .card .card-header:hover{
-  background: rgba(77, 233, 30, 0.1);
+  background: rgba(1, 155, 243, 0.1);
   padding-left: 10px;
 }
 .faq .card .card-header .faq-title{
@@ -133,7 +133,7 @@
   -webkit-border-radius:100px;
   -moz-border-radius:100px;
   border-radius: 100px;
-  background: rgb(52, 255, 12);
+  background: rgb(0, 157, 255);
   color: #fff;
   font-size: 12px;
   margin-right: 20px;
