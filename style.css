@@ -56,3 +56,13 @@
     justify-content: center;
     gap: 15px;
 }
+.contact-link{
+  text-decoration: none;
+  display: block;
+  margin: 12px 0;
+  color: inherit;
+}
+a{
+  text-decoration: none;
+}
+
